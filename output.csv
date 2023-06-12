@@ -1,0 +1,4 @@
+filename,issuer,invoice_number,date,amount,currency,desc
+inv.pdf,Sliced Invoices,INV-3337,2016-01-25 00:00:00,93.5,Dollar,Invoice from Sliced Invoices
+invoice.pdf,Sliced Invoices,"['INV-123', 'INV-456', 'INV-999', 'INV-444', 'INV-333']","[datetime.datetime(2017, 10, 25, 0, 0), datetime.datetime(2017, 10, 7, 0, 0), datetime.datetime(2017, 11, 5, 0, 0), datetime.datetime(2017, 10, 5, 0, 0), datetime.datetime(2017, 10, 6, 0, 0)]","[420.5, 93.5, 14.5, 23.5]",Dollar,Invoice from Sliced Invoices
+robopro.pdf,robopro,2170,2017-09-29 00:00:00,"[620000.0, 172500.0, 77500.0, 120000.0]",EUR,Invoice from robopro
