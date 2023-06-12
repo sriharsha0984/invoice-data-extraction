@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+
+issuer: Sliced Invoices
+fields:
+  invoice_number: /Invoice\sNumber\s(INV-\d+)
+  date: /Invoice\sDate\s(\b\w+\s+\d{1,2},\s+\d{4}\b)
+  amount: ^Total\s+\$(\d+\.\d{2})
+
+keywords:
+- Sliced Invoices
+options:
+  remove_whitespace: false
+  currency: Dollar
+  date_format: '%Y/%m/%d'
+  language: en
